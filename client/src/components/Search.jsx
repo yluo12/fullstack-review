@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import $ from 'jquery';
 
 const Search = ({ onSearch }) => {
 
@@ -20,5 +21,5 @@ const Search = ({ onSearch }) => {
     </div>
   );
 }
-
+// onChange={$.debounce(250, onChange)}
 export default Search;
